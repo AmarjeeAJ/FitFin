@@ -5,7 +5,6 @@ const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [scrollProgress, setScrollProgress] = useState(0);
 
-    // Show/hide button logic
     const toggleVisibility = () => {
         if (window.scrollY > 300) {
             setIsVisible(true);
@@ -14,19 +13,14 @@ const ScrollToTop = () => {
         }
     };
 
-    // Calculate scroll progress
     const updateScrollProgress = () => {
         const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
         const progress = (window.scrollY / totalHeight) * 100;
         setScrollProgress(progress);
     };
 
-    // Scroll to top function
     const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     useEffect(() => {
@@ -39,19 +33,23 @@ const ScrollToTop = () => {
     }, []);
 
     return (
-        <div>
+        <div className="fixed bottom-8 right-8">
             {isVisible && (
                 <div
                     onClick={scrollToTop}
-                    className="fixed bottom-8 right-8 cursor-pointer w-12 h-12 rounded-full bg-[#1a103f] shadow-lg overflow-hidden border-2 border-white"
+                    className="cursor-pointer w-12 h-12 rounded-full bg-[#1a103f] shadow-lg overflow-hidden border-2 border-white relative"
                 >
-                    {/* Progress Bar */}
+                    {/* Water Fill Effect */}
                     <div
-                        className="absolute bottom-0 left-0 h-full bg-[#A855F7]"
-                        style={{ height: `${scrollProgress}%` }}
+                        className="absolute bottom-0 w-full bg-[#74ccf4] transition-all duration-500 ease-in-out"
+                        style={{
+                            height: `${scrollProgress}%`,
+                            clipPath: 'polygon(0 100%, 100% 100%, 100% 0, 0 0)'
+                        }}
                     />
+
                     {/* Arrow Icon */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white">
+                    <div className="absolute inset-0 flex items-center justify-center text-white z-10">
                         <FaArrowUp size={20} />
                     </div>
                 </div>
