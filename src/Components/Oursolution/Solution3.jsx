@@ -4,11 +4,12 @@ import debit from "../../assets/debitcards.webp";
 
 const Solution3 = () => {
   return (
-    <div className="min-h-screen  bg-[#0b061f] text-white flex items-center p-12">
+    <div className="min-h-screen bg-[#0b061f] text-white flex flex-col lg:flex-row items-center p-12 relative">
       <div className="absolute top-0 left-0 w-full flex items-center">
         <div className="w-full border-t-2 border-gradient"></div>
       </div>
-      <div className="w-full ml-[-20px] lg:w-1/2 flex justify-center bg-[radial-gradient(circle,#3b0764,#2d0b49,#0b061f)] ">
+
+      <div className="w-full ml-[-20px] lg:w-1/2 flex justify-center relative">
         <img
           src={debit}
           alt="User with Card"
@@ -16,7 +17,7 @@ const Solution3 = () => {
         />
       </div>
 
-      <div className="w-full lg:w-[60%] space-y-6  ml-4 mt-56 ">
+      <div className="w-full lg:w-[60%] space-y-6 ml-4 mt-56">
         <h1 className="text-5xl md:text-6xl font-bold">
           Finteezy Is The Fastest Mobile <br />
           <span className="text-[#A855F7]">Banking Solution</span>
@@ -29,9 +30,10 @@ const Solution3 = () => {
           dummy text ever since the 1500s.
         </p>
 
-       
         <div className="flex gap-4">
-        <p className="font-bold mt-6  text-start ml-[-5px]">DOWNLOAD THE APP</p>
+          <p className="font-bold mt-6 text-start ml-[-5px]">
+            DOWNLOAD THE APP
+          </p>
           <div className="bg-gradient-to-r from-[#3b1456] to-[#1a0b2e] p-0 rounded-lg">
             <img
               src={appstore}
@@ -48,6 +50,9 @@ const Solution3 = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="absolute  bottom-12 left-0 w-full">
+        <div className="h-[2px] bg-gradient-to-r from-purple-500 via-orange-400 to-purple-500 w-full"></div>
       </div>
     </div>
   );
