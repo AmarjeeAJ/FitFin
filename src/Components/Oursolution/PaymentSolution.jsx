@@ -9,11 +9,11 @@ const PaymentSolution = () => {
       {/* Payment Details */}
       <div className="flex justify-center items-center w-[100%] gap-10 flex-wrap">
         <div>
-          <div className="text-center text-4xl font-bold mb-10">
+          <div className="text-center text-4xl font-bold mb-10   w-[100%]">
             <h2 className="text-5xl font-bold text-white mb-6 text-center">
-              You Can Send Money On Your
+              You Can Send Money On Yourxd
               <span className="text-[#f39c12]"> Finger Tips</span>
-            </h2>
+            </h2> 
           </div>
           <div className="bg-white w-[50%] text-black p-6  h-full shadow-lg ">
             <div className="mb-4">
@@ -25,7 +25,7 @@ const PaymentSolution = () => {
               <p>$465.5</p>
             </div>
             <div className="bg-pink-500 text-white rounded-full p-2 mt-4">
-              ✅ Your Payment has been successful
+               Your Payment has been successful
             </div>
           </div>
         </div>
