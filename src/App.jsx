@@ -7,6 +7,7 @@ import Solution2 from "./Components/Oursolution/Solution2";
 import ScrollToTop from "./ScrollToTop"
 import Solution3 from "./Components/Oursolution/Solution3";
 import PaymentSolution from "./Components/Oursolution/PaymentSolution";
+import PricingPlan from "./Components/Oursolution/PricingPlan";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Solution2 />
         <Solution3/>
         <PaymentSolution/>
+        <PricingPlan/>
         <ScrollToTop />  {/* Added ScrollToTop here */}
       </div>
     </BrowserRouter>

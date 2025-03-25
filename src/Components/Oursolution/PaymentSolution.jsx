@@ -100,11 +100,10 @@ const PaymentSolution = () => {
       </div>
 
       {/* Customer Feedback */}
-      <div className="bg-[#0d021f] text-white mt-24 py-16 px-6">
-        {/* Main Container */}
+      <div className="bg-[#0b061f] text-white mt-24 py-16 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-start gap-12">
           {/* Left Section: Header + Stats */}
-          <div className="w-1/2">
+          <div className="w-1/2 mt-32">
             {/* Header Section */}
             <div>
               <h2 className="text-6xl  ml-12 font-bold">
@@ -115,7 +114,8 @@ const PaymentSolution = () => {
               </h2>
               <p className="text-gray-400  ml-12 mt-4 max-w-md">
                 Lorem ipsum dolor sit amet consectetur. Scelerisque tincidunt
-                nibh molestie nisi egestas nulla massa nbzufhsuhd jhudsfhsnhujkjkfjujujfjuf, hsuifhbw
+                nibh molestie nisi egestas nulla massa nbzufhsuhd
+                jhudsfhsnhujkjkfjujujfjuf, hsuifhbw
               </p>
             </div>
 
@@ -137,74 +137,81 @@ const PaymentSolution = () => {
           </div>
 
           {/* Right Section: Testimonials */}
-          <div className="w-1/2 flex flex-col gap-6">
+          <div className="w-1/2 flex flex-col gap-6 ml-16 ">
             {/* Card 1 */}
-            <div className="relative w-[90%] bg-purple-500 p-6 rounded-xl shadow-lg">
-              <div className="absolute top-[-15px] right-[-15px] text-white text-4xl">
-                ❝
-              </div>
-              <div className="flex items-center gap-4">
-                <img
-                  src="https://randomuser.me/api/portraits/men/1.jpg"
-                  alt="John Smith"
-                  className="w-12 h-12 rounded-full border-2 border-white"
-                />
-                <div>
-                  <h4 className="font-bold">John Smith</h4>
-                  <p className="text-sm text-gray-200">Designer</p>
-                </div>
-              </div>
-              <p className="text-gray-200 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
+            <div className="relative w-[80%] bg-gradient-to-br from-purple-500 to-purple-900 p-6 rounded-xl shadow-lg flex items-center gap-4">
+              {/* Left - Image */}
+              <img
+                src="https://randomuser.me/api/portraits/men/1.jpg"
+                alt="John Smith"
+                className="w-20 h-20 rounded-full "
+              />
 
-            {/* Card 2 */}
-            <div className="relative w-[80%] bg-gradient-to-r from-gray-900 to-gray-700 p-6 rounded-xl shadow-lg">
-              <div className="absolute top-[-15px] right-[-15px] text-white text-4xl">
-                ❝
+              {/* Right - Text Content */}
+              <div>
+                <h4 className="font-bold text-lg font-sans text-white">
+                  John Smith
+                </h4>
+                <p className="text-md font-sans font-semibold text-gray-200">
+                  Designer
+                </p>
+                <p className="text-gray-200 mt-2">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
               </div>
-              <div className="flex items-center gap-4">
-                <img
-                  src="https://randomuser.me/api/portraits/men/2.jpg"
-                  alt="William John"
-                  className="w-12 h-12 rounded-full border-2 border-white"
-                />
-                <div>
-                  <h4 className="font-bold">William John</h4>
-                  <p className="text-sm text-gray-200">Developer</p>
-                </div>
-              </div>
-              <p className="text-gray-200 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
             </div>
+            {/* card2 */}
+            <div className="relative w-[80%] ml-12 bg-gradient-to-r from-gray-800 to-pink-400 p-6 rounded-xl shadow-lg flex items-center gap-4">
+              {/* Left - Image */}
+              <img
+                src="https://randomuser.me/api/portraits/men/1.jpg"
+                alt="John Smith"
+                className="w-20 h-20 rounded-full "
+              />
 
-            {/* Card 3 */}
-            <div className="relative w-[90%] bg-purple-500 p-6 rounded-xl shadow-lg">
-              <div className="absolute top-[-15px] right-[-15px] text-white text-4xl">
-                ❝
+              {/* Right - Text Content */}
+              <div>
+                <h4 className="font-bold text-lg font-sans text-white">
+                  John Smith
+                </h4>
+                <p className="text-md font-sans font-semibold text-gray-200">
+                  Designer
+                </p>
+                <p className="text-gray-200 mt-2">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
               </div>
-              <div className="flex items-center gap-4">
-                <img
-                  src="https://randomuser.me/api/portraits/women/3.jpg"
-                  alt="Anna Williams"
-                  className="w-12 h-12 rounded-full border-2 border-white"
-                />
-                <div>
-                  <h4 className="font-bold">Anna Williams</h4>
-                  <p className="text-sm text-gray-200">Freelancer</p>
-                </div>
+            </div>
+            {/* card3 */}
+            <div className="relative w-[80%] bg-gradient-to-r from-blue-900 to-pink-400 p-6 rounded-xl shadow-lg flex items-center gap-4">
+              {/* Left - Image */}
+              <img
+                src="https://randomuser.me/api/portraits/men/1.jpg"
+                alt="John Smith"
+                className="w-20 h-20 rounded-full "
+              />
+
+              {/* Right - Text Content */}
+              <div>
+                <h4 className="font-bold text-lg font-sans text-white">
+                  John Smith
+                </h4>
+                <p className="text-md font-sans font-semibold text-gray-200">
+                  Designer
+                </p>
+                <p className="text-gray-200 mt-2">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
               </div>
-              <p className="text-gray-200 mt-2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute  bottom-[opx] left-0 w-full">
+        <div className="h-[2px] bg-gradient-to-r from-purple-500 via-orange-400 to-purple-500 w-full"></div>
       </div>
     </div>
   );
