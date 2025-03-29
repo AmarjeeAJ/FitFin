@@ -1,10 +1,10 @@
-import React from "react";
+
 import payment from "../../assets/benefitsMobile.webp";
 import { GoCheckCircleFill } from "react-icons/go";
 
 const PaymentSolution = () => {
   return (
-    <div className="bg-[#0b061f] min-h-screen text-white p-8">
+    <div className="bg-[#12022d] min-h-screen text-white p-8">
       {/* Header Section */}
 
       {/* Payment Details */}
@@ -12,7 +12,7 @@ const PaymentSolution = () => {
         {/* Left Side - Text Content */}
         <div className="w-full md:w-2/4 flex flex-col justify-center">
           <div className="text-center text-4xl font-bold mb-10 w-full">
-            <h2 className="text-6xl  text-start font-bold text-white mb-6">
+            <h2 className="text-5xl  text-start font-bold text-white mb-6">
               You Can Send Money On Your
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
                 {" "}
@@ -100,7 +100,7 @@ const PaymentSolution = () => {
       </div>
 
       {/* Customer Feedback */}
-      <div className="bg-[#0b061f] text-white mt-24 py-16 px-6">
+      <div className="bg-[#12022d] text-white mt-24 py-16 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-start gap-12">
           {/* Left Section: Header + Stats */}
           <div className="w-1/2 mt-32">

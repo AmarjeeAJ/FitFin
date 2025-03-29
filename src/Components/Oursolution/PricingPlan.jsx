@@ -1,9 +1,9 @@
-import React from "react";
+
 import Pricingcard from "../../assets/pricing_card.webp";
 
 const PricingPlan = () => {
   return (
-    <div className="w-full bg-[#0b061f]  px-8 py-16 flex flex-col items-center">
+    <div className="w-full bg-[#12022d] px-8 py-16 flex flex-col items-center relative ">
       {/* Top Section: Image & Text */}
       <div className="w-full flex justify-center items-center gap-12">
         {/* Image */}
@@ -11,7 +11,7 @@ const PricingPlan = () => {
           <img
             src={Pricingcard}
             alt="User with Card"
-            className="w-[70%]  object-cover"
+            className="w-[70%] object-cover"
           />
         </div>
 
@@ -33,12 +33,12 @@ const PricingPlan = () => {
       {/* Pricing Cards Section */}
       <div className="mt-24 flex justify-center gap-8">
         {/* Card 1 */}
-        <div className="  w-[43%] h-[450px] rounded-xl border border-purple-500 hover:border-blue-700 flex flex-col items-center justify-center p-6 space-y-4 ">
-          <div className="mx-8 space-y-8 mt-[-40px] ">
-            <h1 className="text-white text-start text-4xl   font-semibold">
+        <div className="w-[43%] h-[450px] rounded-xl border border-purple-500 hover:border-blue-700 flex flex-col items-center justify-center p-6 space-y-4">
+          <div className="mx-8 space-y-8 mt-[-40px]">
+            <h1 className="text-white text-start text-4xl font-semibold">
               Personal
             </h1>
-            <p className="text-white  text-lg font-sans   ">
+            <p className="text-white text-lg font-sans">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
               fugit voluptas iusto accusantium atque dicta ducimus libero!
               Facere, quod incidunt.
@@ -61,9 +61,9 @@ const PricingPlan = () => {
 
         {/* Card 2 */}
         <div className="w-[43%] h-[450px] rounded-xl border border-purple-500 hover:border-blue-700 flex flex-col items-center justify-center p-6 space-y-4">
-          <div className="mx-8 space-y-8  mt-[-40px]  ">
+          <div className="mx-8 space-y-8 mt-[-40px]">
             <h1 className="text-white text-4xl font-semibold">Basic</h1>
-            <p className="text-white  text-lg font-sans  ">
+            <p className="text-white text-lg font-sans">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
               fugit voluptas iusto accusantium atque dicta ducimus libero!
               Facere, quod incidunt.
@@ -73,19 +73,19 @@ const PricingPlan = () => {
                 $15
               </span>
 
-              <span className="text-white text-md text-center  ">
+              <span className="text-white text-md text-center">
                 Per user per month billed annually
               </span>
             </h1>
-            <button className=" relative group overflow-hidden border border-purple-600 md:px-14 py-3 md:py-4 rounded-full text-md text-white font-semibold w-fit">
+            <button className="relative group overflow-hidden border border-purple-600 md:px-14 py-3 md:py-4 rounded-full text-md text-white font-semibold w-fit">
               <span className="absolute inset-0 bg-gradient-to-r from-blue-900 via-purple-800 to-pink-400 w-0 left-full group-hover:left-0 group-hover:w-full transition-all duration-[600ms] ease-in-out"></span>
               <span className="relative z-10">Get Started</span>
             </button>
           </div>
         </div>
       </div>
-      <div className="absolute  bottom-0 left-0 w-full">
-        <div className="h-[2px] bg-gradient-to-r from-purple-500 via-orange-400 to-purple-500 w-full"></div>
+      <div className="absolute bottom-0  left-0 w-full">
+        <div className="h-[2px] bg-gradient-to-r from-purple-500 via-orange-400 to-purple-500"></div>
       </div>
     </div>
   );

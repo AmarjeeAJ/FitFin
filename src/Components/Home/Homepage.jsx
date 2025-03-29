@@ -2,7 +2,7 @@ import Card1 from "../../assets/debit_card.png";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex items-center bg-[#0b061f] mt-[-40px] justify-center px-12 py-20 text-white ">
+    <div className="min-h-screen flex items-center bg-[#12022d] mt-[-40px] justify-center px-12 py-20 text-white ">
       {/* bg-[radial-gradient(circle,#3b0764,#2d0b49,#0b061f,#2d0b49,#2d0b49,#2d0b49,#2d0b49)] */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center w-full max-w-7xl">
         {/* Left Section - Text and Button */}

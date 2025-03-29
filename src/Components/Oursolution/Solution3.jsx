@@ -4,7 +4,7 @@ import debit from "../../assets/debitcards.webp";
 
 const Solution3 = () => {
   return (
-    <div className="min-h-screen bg-[#0b061f] text-white flex flex-col lg:flex-row items-center p-12 relative">
+    <div className="min-h-screen bg-[#12022d] text-white flex flex-col lg:flex-row items-center p-12 relative">
       <div className="absolute top-0 left-0 w-full flex items-center">
         <div className="w-full border-t-2 border-gradient"></div>
       </div>

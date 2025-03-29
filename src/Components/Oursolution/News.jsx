@@ -35,7 +35,7 @@ const News = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <div className="bg-[#0b061f] text-white py-12 px-6">
+    <div className="bg-[#12022d] text-white  py-12 px-6">
       {/* Title */}
       <div className="text-center mb-12 space-y-8">
         <h2 className="text-6xl font-sans font-bold">Latest news & Events</h2>
@@ -130,7 +130,7 @@ const News = () => {
       </div>
 
       {/* FAQ Section */}
-      <div className="bg-[#0b061f] min-h-screen flex items-center justify-center px-6 lg:px-20 mt-24">
+      <div className="bg-[#12022d] min-h-screen flex items-center justify-center px-6 lg:px-20 mt-24">
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 items-stretch">
           {/* FAQ Text Section */}
           <div className="flex flex-col justify-center space-y-8 h-full">
@@ -164,7 +164,7 @@ const News = () => {
 
                   {/* Collapsible Answer Section with Border */}
                   <div
-                    className={`overflow-hidden transition-all duration-300 ease-in-out bg-[#0b061f] text-gray-300 rounded-b-lg border border-purple-500 ${
+                    className={`overflow-hidden transition-all duration-300 ease-in-out bg-[#12022d] text-gray-300 rounded-b-lg border border-purple-500 ${
                       openIndex === index
                         ? "max-h-40 opacity-100 p-4 border-t"
                         : "max-h-0 opacity-0 p-0 border-t-0"
@@ -206,7 +206,6 @@ const News = () => {
           </button>
         </div>
       </div>
-      
     </div>
   );
 };

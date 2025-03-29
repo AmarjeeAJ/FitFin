@@ -33,7 +33,7 @@ const options = {
 
 const Solution2 = () => {
   return (
-    <div className="min-h-screen bg-[#0b061f] text-white p-12 flex flex-col lg:flex-row items-center">
+    <div className="min-h-screen bg-[#12022d] text-white p-12 flex flex-col lg:flex-row items-center">
       {/* Left Section */}
       <div className="w-full lg:w-1/2 space-y-9 mb-10 lg:mb-0">
         <h2 className="text-5xl md:text-7xl font-bold">

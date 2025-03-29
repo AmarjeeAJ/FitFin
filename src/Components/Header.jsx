@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#0b061f] text-white py-4 px-6 md:px-10 flex justify-between items-center sticky top-0 left-0 w-full z-50 ">
+    <header className="bg-[#12022d] text-white py-4 px-6 md:px-10 flex justify-between items-center sticky top-0 left-0 w-full z-50 ">
       {/* Logo */}
       <NavLink to="/" className="flex items-center">
         <img
@@ -149,7 +149,7 @@ const Header = () => {
             className="absolute bg-[#0A0A12] text-white shadow-lg rounded-md mt-2 py-2 w-52
                opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
           >
-            <NavLink to="/page1" className="block px-4 py-2 ">
+            <NavLink to="/Pricing " className="block px-4 py-2 ">
               Pricing
             </NavLink>
             <NavLink to="/page2" className="block px-4 py-2 ">

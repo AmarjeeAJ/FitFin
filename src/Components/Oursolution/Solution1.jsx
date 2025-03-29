@@ -28,7 +28,7 @@ const Solution1 = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0b061f] text-white mt-[-200px] px-8 py-16">
+    <div className="min-h-screen bg-[#12022d] text-white mt-[-200px] px-8 py-16">
       {/* Header Section */}
       <div className="text-center mb-16">
         <h2 className="text-2xl font-bold text-white relative w-full flex items-center">
